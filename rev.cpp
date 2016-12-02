@@ -7,7 +7,7 @@ using namespace std;
 
 	char str[100], temp;
 	int i=0, j;
-	cout<<"Enter the String : ";
+	
 	gets(str);
 	i=0;
 	j=strlen(str)-1;
@@ -19,6 +19,6 @@ using namespace std;
 		i++;
 		j--;
 	}
-	cout<<"Reverse of the String = "<<str;
+	cout<<str;
 
 }
